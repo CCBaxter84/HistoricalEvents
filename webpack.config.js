@@ -23,6 +23,6 @@ module.exports = {
   },
   output: {
     filename: 'bundle.js',
-    path: __dirname + 'client/public'
+    path: __dirname + '/client/public'
   }
 };

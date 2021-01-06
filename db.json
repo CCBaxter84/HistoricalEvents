@@ -1,0 +1,13 @@
+{
+  "events": [
+    {
+      "id": 1, "title": "American Independence", "date": "07-04-1776"
+    },
+    {
+      "id": 2, "title": "Kennedy Assassination", "date": "11-22-1963"
+    },
+    {
+      "id": 3, "title": "Battle of Waterloo", "date": "06-18-1815"
+    }
+  ]
+}

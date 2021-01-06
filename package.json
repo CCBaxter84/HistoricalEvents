@@ -19,7 +19,8 @@
   "homepage": "https://github.com/CCBaxter84/HistoricalEvents#readme",
   "dependencies": {
     "react": "^17.0.1",
-    "react-dom": "^17.0.1"
+    "react-dom": "^17.0.1",
+    "react-paginate": "^7.0.0"
   },
   "devDependencies": {
     "@babel/cli": "^7.12.10",

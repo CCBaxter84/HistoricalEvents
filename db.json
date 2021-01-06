@@ -8,6 +8,27 @@
     },
     {
       "id": 3, "title": "Battle of Waterloo", "date": "06-18-1815"
+    },
+    {
+      "id": 4, "title": "Normandy Invasion", "date": "06-06-1944"
+    },
+    {
+      "id": 5, "title": "The Army's Birthday", "date": "06-14-1775"
+    },
+    {
+      "id": 6, "title": "Flag Day", "date": "06-14-1777"
+    },
+    {
+      "id": 7, "title": "Attack on Pearl Harbor", "date": "12-07-1941"
+    },
+    {
+      "id": 8, "title": "Battle of Lexington", "date": "04-19-1775"
+    },
+    {
+      "id": 9, "title": "Battle of Trenton", "date": "12-26-1776"
+    },
+    {
+      "id": 10, "title": "Battle of Antietam", "date": "09-17-1862"
     }
   ]
 }

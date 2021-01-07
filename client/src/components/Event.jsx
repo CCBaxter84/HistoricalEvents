@@ -9,10 +9,7 @@ const Event = ({key, title, date}) => {
     <li key={key} className='col list-group-item'>
       {`${title} - ${date}`}
       <br/>
-      <button 
-        className='btn btn-secondary'
-        
-      >
+      <button className='btn btn-secondary'>
         Edit
       </button>
     </li>

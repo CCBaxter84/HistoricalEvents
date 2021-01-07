@@ -1,4 +1,5 @@
 import React from 'react';
+import Event from './Event.jsx';
 
 const Events = ({ events, loading }) => {
   // Render loading message if fetch takes too long
@@ -8,11 +9,7 @@ const Events = ({ events, loading }) => {
   // Render list of events
   return (
     <ul className='list-group mb-4'>
-      {events.map(event => (
-        <li key={event.id} className='list-group-item'>
-          {`${event.title} - ${event.date}`}
-        </li>
-      ))}
+      {events.map(event => <Event key={event.id} title={event.title} date={event.date}/>)}
     </ul>
   );
 };

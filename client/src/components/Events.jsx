@@ -1,5 +1,6 @@
 import React from 'react';
 import Event from './Event.jsx';
+import { v4 as uuidv4 } from 'uuid';
 
 const Events = ({ events, loading }) => {
   // Render loading message if fetch takes too long
@@ -9,7 +10,14 @@ const Events = ({ events, loading }) => {
   // Render list of events
   return (
     <ul className='list-group mb-4'>
-      {events.map(event => <Event key={event.id} title={event.title} date={event.date}/>)}
+      {events.map(event => {
+        if (event.date[0] === '-') {
+          event.date = event.date.slice(1).concat(' BC');
+        }
+        return (
+          <Event key={uuidv4()} title={event.description} date={event.date}/>
+        );
+      })}
     </ul>
   );
 };

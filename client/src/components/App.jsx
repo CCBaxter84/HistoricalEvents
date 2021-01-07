@@ -16,7 +16,9 @@ const App = () => {
   // Re-render whenever the page is updated
   useEffect(() => {
     setLoading(true);
-    getEvents();
+    if (search !== null) {
+      getEvents();
+    }
     setLoading(false);
   }, [page]);
 

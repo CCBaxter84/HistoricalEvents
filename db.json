@@ -3,52 +3,67 @@
     {
       "id": 1,
       "title": "American Independence",
-      "date": "07-04-1776"
+      "date": "1776/07/04"
     },
     {
       "id": 2,
       "title": "Kennedy Assassination",
-      "date": "11-22-1963"
+      "date": "1963/11/22"
     },
     {
       "id": 3,
       "title": "Battle of Waterloo",
-      "date": "06-18-1815"
+      "date": "1815/06/18"
     },
     {
       "id": 4,
       "title": "Normandy Invasion",
-      "date": "06-06-1944"
+      "date": "1944/06/06"
     },
     {
       "id": 5,
       "title": "The Army's Birthday",
-      "date": "06-14-1775"
+      "date": "1775/06/14"
     },
     {
       "id": 6,
       "title": "Flag Day",
-      "date": "06-14-1777"
+      "date": "1777/06/14"
     },
     {
       "id": 7,
       "title": "Attack on Pearl Harbor",
-      "date": "12-07-1941"
+      "date": "1941/12/07"
     },
     {
       "id": 8,
       "title": "Battle of Lexington",
-      "date": "04-19-1775"
+      "date": "1775/04/19"
     },
     {
       "id": 9,
       "title": "Battle of Trenton",
-      "date": "12-26-1776"
+      "date": "1776/12/26"
     },
     {
       "id": 10,
       "title": "Battle of Antietam",
-      "date": "09-17-1862"
+      "date": "1862/09/17"
+    },
+    {
+      "id": 11,
+      "title": "End of Civil War",
+      "date": "1865"
+    },
+    {
+      "id": 12,
+      "title": "Compromis of 1850",
+      "date": "1850"
+    },
+    {
+      "id": 13,
+      "title": "Caesar's Assassination",
+      "date": "-44"
     }
   ]
 }

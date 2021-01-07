@@ -11,8 +11,3 @@ server.use(router);
 server.listen(3000, () => {
   console.log('Server is running');
 });
-
-server.use((req, res, next) => {
-  req.msg('your mom');
-  next();
-})

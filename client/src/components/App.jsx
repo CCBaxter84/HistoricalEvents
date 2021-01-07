@@ -9,7 +9,7 @@ const App = () => {
   const [ events, setEvents ] = useState([]);
   const [ page, setPage ] = useState(1);
   const [ count, setCount ] = useState(0);
-  const [ limit, setLimit ] = useState(10);
+  const [ limit, setLimit ] = useState(5);
   const [ loading, setLoading ] = useState(false);
   const [ search, setSearch ] = useState(null);
 
@@ -26,7 +26,7 @@ const App = () => {
       const { data, headers } = await axios.get(`/events?q=${text}&_page=${page}&_limit=${limit}`);
       setSearch(text);
       setEvents(data);
-      setCount( parseInt(headers.['x-total-count']) );
+      setCount( parseInt(headers['x-total-count']) );
     } catch (error) {
       console.log(error);
     }
